@@ -1,0 +1,86 @@
+.desktop-header-container{
+    background-color: #ffffff;
+    font-family: "Roboto";
+    width: 25%;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header-heading{
+    font-weight: bold;
+    font-size: 13px;
+}
+.mobile-nav-container{
+    display: none;
+}
+@media screen and (max-width:768px){
+    .desktop-header-container{
+        display: none;
+    }
+    .mobile-nav-container{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 18px;
+        align-items: center;
+        font-family: "Roboto";
+    }
+    .header-heading{
+        font-size: 20px;
+    }
+    .menu{
+        font-size: 20px;
+        align-self: center;
+    }
+}
+
+.dashboard-text-container{
+    background-color: #3a0ca3;
+    color: #ffffff;
+    padding: 4px;
+}
+
+.list-container{
+    list-style-type: none;
+    padding: 0px;
+}
+.container3{
+    background-color: #80717133;
+    padding: 1px 0px ;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+.overview-text{
+    font-weight: bold;
+    color: #10002b;
+}
+.notification-text{
+    margin-top: 20px;
+}
+.sidebar-profile-container{
+    display: flex;
+    align-items: center;
+}
+.cg-profile{
+    font-size: 35px;
+    align-self: center;
+    color: aqua;
+}
+.profile-text{
+    color: #10002b;
+    font-weight: bold;
+    margin-left: 11px;
+    align-self: center;
+}
+.dot{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    align-self: center;
+}
+.notification-container{
+    display: flex;
+ justify-content: center;
+}

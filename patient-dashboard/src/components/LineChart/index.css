@@ -1,0 +1,21 @@
+.vitamin-container{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 45%;
+    margin-left: 20px;
+}
+
+
+
+@media screen and (max-width:768px){
+    .vitamin-container{
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+.recharts-yAxis .tickText {
+    transform: rotate(-145deg);
+  }
